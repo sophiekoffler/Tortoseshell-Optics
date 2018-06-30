@@ -1,0 +1,88 @@
+body { width: 100%;
+      font-size: 18px;
+      line-height: 1.4;
+      font-family: helvetica;
+      color:grey;}
+
+.container {width: 960px;
+            margin: 0 auto;}
+#mainBanner { height: 30rem;
+              background-image: url('./../main banner background.png');
+              background-repeat: no-repeat;
+              background-size: cover;
+              }
+
+#header {display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: cadetblue;
+        padding: 1rem 2rem;
+        color: white;
+        font-size: 1rem;
+
+        align-content: center;}
+#logo {display: flex;
+        flex-direction: row;}
+ul li{display: inline;}
+
+#logo img {height: 1.5rem;
+          padding-right:1rem;}
+nav a {text-decoration: none;
+        font-size: 1rem;
+        color:white;}
+nav li {padding-right:2rem;}
+nav li:last-child {padding-right:0;}
+#msg {display: flex;
+      flex-direction: row-reverse;
+    margin-right:-1rem;}
+#msg span {
+        position: static;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1.2;
+        background-color:white;
+              color:grey;
+              padding:1.5rem 5rem;
+              margin-top:10rem;
+              text-align: right;
+        }
+#mainC {display:flex;
+        flex-direction:column;}
+
+#images,#info {display:flex;
+          flex-direction: row;}
+#images {justify-content: center;
+        align-items: center;}
+.image {display:flex;
+        flex-direction: column;
+      height:8rem;
+      text-align: center;
+      margin-top:3rem;
+      justify-content: space-between;}
+
+#i1 {width:3.5rem;}
+#i2 img,#i3 img {width:5rem;
+
+        }
+#i2,#i3 {padding-left:6rem;}
+#info div div {width:10rem;
+              background-color: cadetblue;
+              color:white;
+              font-size:1rem;
+              font-weight: bold;}
+#info span {padding: .5rem 1.25rem;}
+#info  p{margin-top:1rem;}
+#phil, #apps {display:flex;
+              flex-direction: column;
+              width: 35%;}
+#phil {margin-right: 5%;}
+#info {margin-top:3rem;
+      margin-bottom: 5rem;}
+
+footer {background-color:azure;
+        padding:4rem;}
+footer div{ display:flex;
+        flex-direction: row;
+        }
+footer img{padding-right:1rem;
+            height:1.5rem;}
