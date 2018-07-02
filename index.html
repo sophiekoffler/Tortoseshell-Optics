@@ -2,81 +2,91 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Tortoiseshell Optics</title>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <div id="mainBanner">
-      <div id="header" class="container">
+    <div id="banner">
+      <header class="container">
         <div id="logo">
           <img src="./resources/logo-white.png" />
           <span>Tortoiseshell Optics</span>
-        </div>
+        </div> <!-- logo -->
         <nav>
-          <ul>
+          <ul class="mainNav">
             <li><a href="">Services</a></li>
             <li><a href="">Products</a></li>
             <li><a href="">Contact</a></li>
           </ul>
+          <ul class="mobileNav">
+            <li><a href="">Menu</a></li>
+          </ul>
         </nav>
-      </div> <!-- end header-->
-      <div id="msg" class="container">
-        <span>DON'T JUST LOOK, SEE. </span>
-      </div><!--end msg -->
-    </div> <!-- end mainBanner-->
-    <div id="mainC">
-      <div id="images">
-        <div  id="i1" class="image">
-          <img src="./resources/paper-icon.png" />
-          <div>
-            <p>Comprehensive</p>
-            <p> Exams</p>
-          </div>
+      </header> <!-- header -->
+      <div class="container">
+        <div id="msg" >
+          <span class="mainNav" >DON'T JUST LOOK, SEE.</span>
+          <p class="mobileNav container">DON'T JUST LOOK, SEE.</p>
         </div>
-        <div id="i2" class="image">
-          <img src="./resources/ruler-icon.png" />
-          <div>
-            <p>Custom</p>
-            <p> Fittings</p>
-          </div>
-        </div>
-        <div id="i3" class="image">
-          <img src="./resources/truck-icon.png" />
-          <div>
-            <p>Fast</p>
-            <p>Delivery</p>
-          </div>
-        </div>
-      </div> <!-- end images -->
-      <div id="info" class="container">
-        <div id="phil">
-          <div>
-            <span>PHILOSOPHY</span>
-          </div>
-          <p>Over 75% of our brains are dedicated to one sense: vision.
-              We believe everyone deserves to see the world, no matter what.
-              That's why we offer eye exams, custom fittings, and quick delivery
-              at a low cost. It's your vision that makes ours.
-          </p>
 
-        </div>
-        <div id="apps">
-          <div>
-            <span>APPOINTMENTS</span>
-          </div>
-          <p>Schedule an appointment by calling us at (312) 654-0987.
-            We're open Tuesday - Saturday, 9AM - 6PM.
-          </p>
-        </div>
-      </div> <!-- end info -->
-    </div><!-- end mainC -->
-    <footer class="container">
-      <div>
-        <img src="./resources/logo-black.png" />
-        <span>Copyright Tortoiseshell Optics</span>
-      <div>
-    </footer>
+      </div> <!-- container -->
+    </div> <!-- banner -->
+    <main>
+      <div class="container">
+        <div id="services">
+          <div class="service" id="s1">
+            <img src="./resources/paper-icon.png" />
+              <div>
+                <p>Comprehensive</p>
+                <p>Exams</p>
+              </div>
+          </div> <!-- end s1 -->
+          <div class="service" id="s2">
+            <img src="./resources/ruler-icon.png" />
+            <div>
+              <p>Custom</p>
+              <p>Fittings</p>
+            </div>
+          </div> <!-- end s1 -->
+          <div class="service" id="s3">
+            <img src="./resources/truck-icon.png" />
+              <div>
+                <p>Fast</p>
+                <p>Delivery</p>
+              </div>
+          </div> <!-- end s1 -->
+        </div> <!-- end services -->
+        <div id="info">
+          <div id="i1">
+            <div class="title">
+              <span class="mainNav">PHILOSOPHY</span>
+              <p class="mobileNav">PHILOSOPHY</p>
+            </div>
+            <p>Over 75% of our brains are dedicated to one sense: vision. We believe everyone deserves to see the world,
+              not matter what. That’s why we offer eye exams, custom fittings, and quick delivery at a low cost. It’s your
+              vision that makes ours.</p>
 
+          </div><!-- i1 -->
+          <div id="i2">
+            <div class="title">
+              <span class="mainNav">APPOINTMENTS</span>
+              <p class="mobileNav">APPOINTMENTS</p>
+            </div>
+            <p>Schedule an appointment by calling us at (312) 654-0987. We’re open Tuesday - Saturday, 9AM - 6PM. </p>
+
+          </div>
+        </div><!-- info -->
+      </div> <!-- container -->
+    </main>
+    <footer>
+      <div id="footer" class="container">
+        <div id="logo2">
+          <img src="./resources/logo-black.png" />
+          <span class="mainNav">Copyright Tortoiseshell Optics</span>
+        </div>
+      </div>
   </body>
+
 </html>
